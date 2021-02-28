@@ -13,7 +13,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
             <button
               id={ele}
               onClick={onLeaveFeedback}
-              className={styles[`${ele}`]}
+              className={styles[ele]}
             ></button>
           </li>
         );

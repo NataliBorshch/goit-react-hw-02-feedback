@@ -15,7 +15,7 @@ class Feedback extends Component {
     const value = event.target.id;
     this.setState((prevState) => {
       return {
-        [`${value}`]: prevState[`${value}`] + 1,
+        [value]: prevState[value] + 1,
       };
     });
     this.countTotalFeedback();
