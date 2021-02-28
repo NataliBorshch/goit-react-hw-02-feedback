@@ -1,0 +1,76 @@
+.section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(95, 24, 177, 0.5);
+}
+
+.title {
+  font-size: 25px;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.boxText {
+  display: flex;
+  justify-content: center;
+}
+.total {
+  display: block;
+  padding: 5px;
+  color: blueviolet;
+  text-align: center;
+}
+.text {
+  display: inline-flex;
+  padding: 5px;
+  margin: 0px;
+  color: blueviolet;
+}
+
+.listBtn {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0px;
+}
+button {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  border: none;
+  margin: 5px;
+}
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+  box-shadow: 0 0 10px rgba(95, 24, 177, 0.5);
+}
+
+.good {
+  background-image: url(./SectionFeedback//img/good.png);
+  background-size: 100%;
+}
+.neutral {
+  background-image: url(./SectionFeedback//img//neutral.png);
+  background-size: 100%;
+}
+.bad {
+  background-image: url(./SectionFeedback//img/bed.png);
+  background-size: 100%;
+}
+
+.staticTitle {
+  text-align: center;
+  color: blueviolet;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.notFeedback {
+  text-align: center;
+  color: red;
+  font-size: 25px;
+  font-style: italic;
+}
