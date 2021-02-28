@@ -49,15 +49,15 @@ button:active {
 }
 
 .good {
-  background-image: url(./SectionFeedback//img/good.png);
+  background-image: url(../img/good.png);
   background-size: 100%;
 }
 .neutral {
-  background-image: url(./SectionFeedback//img//neutral.png);
+  background-image: url(../img/neutral.png);
   background-size: 100%;
 }
 .bad {
-  background-image: url(./SectionFeedback//img/bed.png);
+  background-image: url(../img/bad.png);
   background-size: 100%;
 }
 

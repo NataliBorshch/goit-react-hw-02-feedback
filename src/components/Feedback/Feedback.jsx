@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Section from "./SectionFeedback/Section";
-import FeedbackOptions from "./SectionFeedback/FeedbackOptions";
-import Statistics from "./SectionFeedback/Statistics";
+import Section from "./Section/Section";
+import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
+import Statistics from "./Statistics/Statistics";
 import styles from "./Feedback.module.css";
 
 class Feedback extends Component {

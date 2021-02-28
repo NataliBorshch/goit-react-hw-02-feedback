@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import styles from "../Feedback.module.css";
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
@@ -12,14 +14,17 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
               id={ele}
               onClick={onLeaveFeedback}
               className={styles[`${ele}`]}
-            >
-              {/* {ele.toLocaleUpperCase()} */}
-            </button>
+            ></button>
           </li>
         );
       })}
     </ul>
   );
+};
+
+FeedbackOptions.propTypes = {
+  options: PropTypes.objectOf(PropTypes.number).isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
 };
 
 export default FeedbackOptions;
